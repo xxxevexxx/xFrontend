@@ -1,0 +1,18 @@
+{
+  "Header": {
+    "services": "Services and Offerings",
+    "news": "News",
+    "company": "About the Company",
+    "contacts": "Contacts",
+    "lk": "Personal Account",
+    "clickCopy": "Click to copy",
+    "copySuccess": "Email Successfully Copied!",
+    "notification": "Notification",
+    "title": "Hello, World!"
+  },
+  "Service": {
+    "title": "Cloud storage",
+    "content": "We provide reliable storage of any volume of unstructured data",
+    "button": "To order"
+  }
+}
