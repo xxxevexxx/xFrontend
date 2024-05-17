@@ -8,7 +8,7 @@ const VKSorryPage = () => {
                 <div>VKSorryPage</div>
             </section>
         </div>
-    );
-};
+    )
+}
 
 export default VKSorryPage;

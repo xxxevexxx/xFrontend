@@ -9,12 +9,11 @@ import { signIn } from "next-auth/react";
 import { Backend_URL } from "@/lib/Constants"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { useParams, useRouter, useSearchParams } from "next/navigation"
+import { useRouter, useSearchParams } from "next/navigation"
 import { svgTelegram, svgVkontakte } from "@/components/SvgCollections"
 
 
 const AuthPage = () => {
-    const { locale } = useParams()
     const router = useRouter()
     const searchParams = useSearchParams();
     const callbackUrl = searchParams.get("callbackUrl") || "/account";
