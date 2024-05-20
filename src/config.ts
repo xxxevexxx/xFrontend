@@ -17,5 +17,3 @@ export const pathnames = {
 export const localePrefix = undefined;
 
 export type AppPathnames = keyof typeof pathnames;
-
-export let user = {name: "clown", value: 0}
